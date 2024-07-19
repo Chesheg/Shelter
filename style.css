@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    box-sizing: border-box;
+
+}
+
+header {
+    padding: 28px 0px 40px 40px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+
+    font-size: 32px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.logo-desc {
+    margin-top: 10px;
+    margin-left: 4px;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: #292929;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+
+}
+
+.menu li {
+    margin-right: 40px;
+}
+
+h1 {
+    padding-top: 225px;
+    font-size: 44px;
+    line-height: 57px;
+    letter-spacing: 0em
+    color: #545454;
+}
