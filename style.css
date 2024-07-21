@@ -15,12 +15,20 @@ body {
 
 header {
     padding: 28px 0px 40px 40px;
+    background-image: url(./img/start-screen-gradient-background.jpg);
+
 }
+
 
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.wrapper {
+    padding-top: 0px;
+    display: flex;
 }
 
 .logo {
@@ -54,6 +62,119 @@ h1 {
     padding-top: 225px;
     font-size: 44px;
     line-height: 57px;
-    letter-spacing: 0em
+    letter-spacing: 0.0em;
     color: #545454;
+}
+
+p {
+    width: 460px;
+    padding-top: 0px;
+    line-height: 23px;
+}
+
+.about-text {
+    padding-top: 5px;
+}
+
+.header-button {
+    color: brown;
+    background-color: #F1CDB3;
+    border-radius: 100px;
+    padding: 15px 45px;
+    border: none;
+    font-size: 18px;
+    margin-top: 27px;
+    margin-bottom: 205px;
+
+
+}
+
+.about {
+    padding-bottom: 95px;
+}
+
+.about .left-block {
+    padding-top: 80px;
+    padding-left: 210px;
+}
+
+.about .right-block {
+    padding-top: 65px;
+    padding-left: 118px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.our-friends-title {
+    text-align: center;
+    padding-top: 65px;
+}
+
+.pet-list {
+    display: flex;
+    list-style: none;
+    padding-left: 145px;
+}
+
+.pet-list li {
+    margin-right: 90px;
+}
+
+.pet-list h3 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.pet-button {
+    color: #1a1918;
+    border-style: outset;
+    border-radius: 100px;
+    background-color: #f8f5f2;
+    padding: 14px 45px;
+    border: 2px solid #f1cdb3;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.Get-button {
+    color: #0a0400;
+    border-style: outset;
+    border-radius: 100px;
+    background-color: #f8f5f2;
+    padding: 14px 45px;
+    border: 2px solid #f1cdb3;
+    font-size: 18px;
+    margin-top: 78px;
+    margin-left: 510px;
+}
+.our-friends-title {
+    text-align: center;
+    padding-top: 108px;
+}
+.wrapper-2 {
+    display: flex;
+}
+.help-list {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    padding-left: 138px;
+    padding-top: 15px;
+    flex-wrap: wrap;
+}
+
+.help-list li {
+    margin-right: 130px;
+}
+
+.help-list h4 {
+    text-align: center;
+    padding-top: 10px;
 }
