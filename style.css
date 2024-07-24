@@ -19,6 +19,9 @@ header {
 
 }
 
+header a {
+    color: white;
+}
 
 .header-container {
     display: flex;
@@ -60,24 +63,25 @@ header {
 
 h1 {
     padding-top: 225px;
+    padding-left: 0px;
     font-size: 44px;
     line-height: 57px;
-    letter-spacing: 0.0em;
+    font-weight: 400;
+    letter-spacing: 0em;
     color: #545454;
 }
 
 p {
-    width: 460px;
-    padding-top: 0px;
+    width: 560px;
+    padding-top: 12px;
     line-height: 23px;
+    letter-spacing: 0.0em;
 }
 
-.about-text {
-    padding-top: 5px;
-}
+
 
 .header-button {
-    color: brown;
+    color: #545454;
     background-color: #F1CDB3;
     border-radius: 100px;
     padding: 15px 45px;
@@ -85,8 +89,6 @@ p {
     font-size: 18px;
     margin-top: 27px;
     margin-bottom: 205px;
-
-
 }
 
 .about {
@@ -103,6 +105,11 @@ p {
     padding-left: 118px;
 }
 
+.about-text {
+    width: 420px;
+    margin-top: -17px;
+}
+
 h2 {
     font-weight: 400;
     font-size: 35px;
@@ -113,13 +120,14 @@ h2 {
 
 .our-friends-title {
     text-align: center;
-    padding-top: 65px;
+    margin-top: -28px;
 }
 
 .pet-list {
     display: flex;
     list-style: none;
     padding-left: 145px;
+    padding-top: 15px;
 }
 
 .pet-list li {
@@ -128,7 +136,7 @@ h2 {
 
 .pet-list h3 {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 8px;
 }
 
 .pet-button {
@@ -139,8 +147,8 @@ h2 {
     padding: 14px 45px;
     border: 2px solid #f1cdb3;
     font-size: 18px;
-    margin-top: 10px;
-    margin-left: 50px;
+    margin-top: 14px;
+    margin-left: 42px;
 }
 
 .Get-button {
@@ -148,19 +156,22 @@ h2 {
     border-style: outset;
     border-radius: 100px;
     background-color: #f8f5f2;
-    padding: 14px 45px;
+    padding: 14px 47px;
     border: 2px solid #f1cdb3;
     font-size: 18px;
-    margin-top: 78px;
+    margin-top: 72px;
     margin-left: 510px;
 }
+
 .our-friends-title {
     text-align: center;
-    padding-top: 108px;
+    padding-top: 158px;
 }
+
 .wrapper-2 {
     display: flex;
 }
+
 .help-list {
     list-style: none;
     display: flex;
@@ -177,4 +188,64 @@ h2 {
 .help-list h4 {
     text-align: center;
     padding-top: 10px;
+}
+
+.wrapper-3 {
+    display: flex;
+}
+
+.donate {
+    padding-bottom: 80px;
+    background-color: #F6F6F6;
+}
+
+.donate .left-block {
+    padding-top: 177px;
+    padding-left: 180px;
+
+}
+
+.donate .right-block {
+    padding-top: 144px;
+    padding-left: 35px;
+}
+
+h5 {
+    margin-top: -10px;
+}
+
+.donate .right-block a {
+    display: flex;
+    padding-left: 11px;
+    padding-top: 8px;
+}
+
+.donate .right-block span {
+    padding-left: 15px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .left-block {
+    padding-left: 40px;
+    padding-top: 26px;
+}
+
+footer .center-block {
+    margin-left: -29px;
+    padding-top: 26px;
+}
+
+footer .right-block {
+    padding-right: 40px;
+    padding-top: 26px;
+}
+
+footer ul {
+    list-style: none;
 }
