@@ -249,3 +249,32 @@ footer .right-block {
 footer ul {
     list-style: none;
 }
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 0px 40px 40px;
+}
+
+.our-friends h2 {
+    padding-top: 95px;
+}
+.wrapper3   {
+    padding-left: 350px;
+}
+
+.pet-list-up {
+    display: flex;
+    list-style: none;
+    padding-left: 145px;
+    padding-top: 15px;
+}
+
+.pet-list-up li {
+    margin-right: 90px;
+}
+
+.pet-list-up h3 {
+    text-align: center;
+    padding-top: 8px;
+}
