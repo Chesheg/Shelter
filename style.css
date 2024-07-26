@@ -1,3 +1,27 @@
+@font-face {
+    font-family: 'georgia';
+    src: url("../fonts/Georgia.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'georgia';
+    src: url("../fonts/Georgia-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'arial';
+    src: url("../fonts/ARIALMT.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
 body {
     margin: 0px;
     font-family: 'Georgia';
@@ -14,9 +38,13 @@ body {
 }
 
 header {
-    padding: 28px 0px 40px 40px;
+    padding: 28px 0px 0px 40px;
     background-image: url(./img/start-screen-gradient-background.jpg);
 
+}
+.wrapper {
+    padding-top: 0px;
+    display: flex;
 }
 
 header a {
@@ -29,9 +57,17 @@ header a {
     align-items: center;
 }
 
-.wrapper {
+header .wrapper {
     padding-top: 0px;
     display: flex;
+}
+header .right-block {
+    position: relative;
+}
+header .right-block img {
+    position: absolute;
+    bottom: 0px;
+    left: 35px;
 }
 
 .logo {
@@ -62,6 +98,7 @@ header a {
 }
 
 h1 {
+    font-family: "Georgia";
     padding-top: 225px;
     padding-left: 0px;
     font-size: 44px;
@@ -72,12 +109,20 @@ h1 {
 }
 
 p {
-    width: 560px;
+    font-family: "arial";
+    width: 465px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
     padding-top: 12px;
     line-height: 23px;
     letter-spacing: 0.0em;
 }
+header p {
+    color : white;
 
+}
 
 
 .header-button {
@@ -88,7 +133,7 @@ p {
     border: none;
     font-size: 18px;
     margin-top: 27px;
-    margin-bottom: 205px;
+    margin-bottom: 245px;
 }
 
 .about {
@@ -118,9 +163,15 @@ h2 {
     color: #545454;
 }
 
+.our-friends {
+    background-color: #F6F6F6;
+    padding-bottom: 95px;
+
+}
+
 .our-friends-title {
     text-align: center;
-    margin-top: -28px;
+    margin-top: -13px;
 }
 
 .pet-list {
@@ -163,9 +214,9 @@ h2 {
     margin-left: 510px;
 }
 
-.our-friends-title {
-    text-align: center;
-    padding-top: 158px;
+.how-you {
+    padding-top: 95px;
+    padding-bottom: 24px;
 }
 
 .wrapper-2 {
@@ -175,14 +226,19 @@ h2 {
 .help-list {
     list-style: none;
     display: flex;
-    justify-content: left;
-    padding-left: 138px;
+    justify-content: center;
+    padding-left: 65px;
+    padding-right: 65px;
     padding-top: 15px;
     flex-wrap: wrap;
 }
 
 .help-list li {
-    margin-right: 130px;
+    margin: 0 65px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 37px;
 }
 
 .help-list h4 {
@@ -195,19 +251,30 @@ h2 {
 }
 
 .donate {
-    padding-bottom: 80px;
+    padding-bottom: 89px;
     background-color: #F6F6F6;
 }
+.donate p   {
+    width: 380px;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #b2b2b2;
+    padding-top: 20px;
 
+}
 .donate .left-block {
-    padding-top: 177px;
+    padding-top: 92px;
     padding-left: 180px;
 
 }
 
 .donate .right-block {
-    padding-top: 144px;
-    padding-left: 35px;
+    padding-top: 53px;
+    padding-left: 32px;
+
 }
 
 h5 {
@@ -227,6 +294,7 @@ h5 {
 }
 
 footer {
+    background-image: url(./img/footer-gradient-background.png);
     display: flex;
     justify-content: space-between;
 }
@@ -237,18 +305,31 @@ footer .left-block {
 }
 
 footer .center-block {
-    margin-left: -29px;
+    margin-left: -35px;
     padding-top: 26px;
 }
 
 footer .right-block {
-    padding-right: 40px;
-    padding-top: 26px;
+    padding-right: 39px;
+    padding-top: 38px;
 }
 
 footer ul {
     list-style: none;
+    padding-left: 0px;
 }
+
+footer li {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    text-decoration: none;
+    padding-bottom: 34px;
+}
+
 
 .header2 {
     display: flex;
