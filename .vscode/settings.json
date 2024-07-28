@@ -1,0 +1,10 @@
+{
+    "css.hover.references": false,
+    "less.hover.references": false,
+    "scss.hover.references": false,
+    "html.hover.references": false,
+    "html.validate.references": false,
+    "editor.suggest.enabled": false,
+    "editor.hover.enabled": false,
+    "editor.codeLens": false,
+}

@@ -4,23 +4,23 @@
     font-weight: 400;
     font-style: normal;
     font-display: swap;
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: 'georgia';
     src: url("../fonts/Georgia-Bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: 'arial';
     src: url("../fonts/ARIALMT.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
-  }
+}
 
 body {
     margin: 0px;
@@ -42,6 +42,7 @@ header {
     background-image: url(./img/start-screen-gradient-background.jpg);
 
 }
+
 .wrapper {
     padding-top: 0px;
     display: flex;
@@ -61,9 +62,11 @@ header .wrapper {
     padding-top: 0px;
     display: flex;
 }
+
 header .right-block {
     position: relative;
 }
+
 header .right-block img {
     position: absolute;
     bottom: 0px;
@@ -119,8 +122,9 @@ p {
     line-height: 23px;
     letter-spacing: 0.0em;
 }
+
 header p {
-    color : white;
+    color: white;
 
 }
 
@@ -183,6 +187,7 @@ h2 {
 
 .pet-list li {
     margin-right: 90px;
+    background-color: white;
 }
 
 .pet-list h3 {
@@ -254,7 +259,8 @@ h2 {
     padding-bottom: 89px;
     background-color: #F6F6F6;
 }
-.donate p   {
+
+.donate p {
     width: 380px;
     font-family: 'Arial';
     font-style: italic;
@@ -265,6 +271,7 @@ h2 {
     padding-top: 20px;
 
 }
+
 .donate .left-block {
     padding-top: 92px;
     padding-left: 180px;
@@ -299,14 +306,27 @@ footer {
     justify-content: space-between;
 }
 
+footer h2 {
+    color: white;
+}
+
 footer .left-block {
     padding-left: 40px;
     padding-top: 26px;
 }
 
 footer .center-block {
-    margin-left: -35px;
+    margin-left: -7px;
     padding-top: 26px;
+}
+
+footer .center-block h2 {
+    padding-bottom: 0px;
+    margin-bottom: 24px;
+}
+
+footer .center-block li:first-child {
+    padding-bottom: 33px;
 }
 
 footer .right-block {
@@ -317,9 +337,15 @@ footer .right-block {
 footer ul {
     list-style: none;
     padding-left: 0px;
+    padding-top: 10px;
+    margin: 0;
 }
 
 footer li {
+    padding-bottom: 40px;
+}
+
+footer li a {
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -327,9 +353,14 @@ footer li {
     letter-spacing: 0.06em;
     color: #F1CDB3;
     text-decoration: none;
-    padding-bottom: 34px;
+    display: flex;
+    align-items: center;
 }
 
+footer .description {
+    padding-left: 20px;
+
+}
 
 .header2 {
     display: flex;
@@ -340,19 +371,22 @@ footer li {
 .our-friends h2 {
     padding-top: 95px;
 }
-.wrapper3   {
-    padding-left: 350px;
+
+.wrapper3 {
+    display: flex;
 }
 
 .pet-list-up {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     padding-left: 145px;
     padding-top: 15px;
 }
 
 .pet-list-up li {
-    margin-right: 90px;
+    margin-right: 50px;
+    margin-bottom: 20px;
 }
 
 .pet-list-up h3 {
